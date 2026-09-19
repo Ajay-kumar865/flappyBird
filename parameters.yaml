@@ -1,0 +1,11 @@
+flappybirdv0:
+  envid: FlappyBird-v0
+  epsilon_init: 1
+  epsilon_min: 0.05
+  epsilon_decay: 0.995
+  replay_memory_size: 100000
+  mini_batch_size: 64
+  network_sync_rate: 1500
+  alpha: 0.0005
+  gamma: 0.99
+  reward_threshold: 1000
